@@ -1,0 +1,604 @@
+
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+div{
+    height: 1000px;
+}
+
+.homeslideshow{
+    height: 850px;
+}
+.firstheader{
+  margin: 0 auto;
+
+  font-size: 60px;
+  text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.75);
+}
+.firstpar{
+
+    font-size: 50px;
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.75);
+}
+.firstdiv{
+    height: 850px;
+    width: 100%;
+}
+.firstdivcontent{
+    height: 850px;
+    padding-top: 300px;
+}
+
+.seconddiv{
+    height: 493px;
+    margin-top: 15px;
+   
+}
+.secondcontent{
+    text-align: left;
+}
+.secondheader{
+    padding-top: 80px;
+    font-weight: bold;
+    font-size: 32px;
+    text-align: center;
+
+}
+.secondpar{
+    margin-top: 50px;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 1.5em;
+    text-align-last: left;
+    
+}
+
+.picturesectionpicture {
+    background-image: url("../../assets/images/DSC_4671.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 30% 5%;
+    width: 100%;
+    height: auto;
+}
+
+.picturesection{
+    height: 500px;
+    width: 100%;
+
+}
+
+.thirdheader{
+  
+  text-align: center;
+  font-size: 32px;
+  margin-top: 60px;
+  font-weight: bold;
+}
+
+.thirddiv{
+    height: 750px;
+    padding-top: 50px;
+    width: 100%;
+    
+}
+.picturesectiontext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    text-shadow: 2px 2x 8px rgba(0, 0, 0, 0.75);
+    height: 500px;
+    letter-spacing: 5px;
+    text-align: center;
+  }
+  
+  .title {
+    font-size:50px;
+    letter-spacing: 5px;
+  }
+  
+  .rel {
+    position: relative;
+  }
+.sectiondivider{
+    width: 15%;
+    height: 20px;
+    border-bottom: 3px solid black;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+  .secondsectiondivider{
+    width: 30%;
+    height: 20px;
+    border-bottom: 3px solid black;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 50px;
+  }
+.background-tint {
+    background-color: rgba(0, 0, 0, 0.75); 
+    background-blend-mode: multiply;
+}
+
+.gridpictures{
+  margin-top: 70px;
+  height: 240px;
+  width: 320px;
+  margin: o auto;
+  border-radius: 1px;
+  padding: 10px;
+
+}
+.picturediv{
+    height: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+    text-align: center;
+    width: 350px;
+    padding-bottom: 50px;
+}
+.showmore{
+    font-size: 15px;
+    margin: 0 auto;
+    background-color: #032A55;
+    color: white;
+    width: 86%;
+    padding: 9px 18px;
+
+    
+}
+
+
+@media screen and (max-width: 1198px){
+    .picturediv{
+        height: 350px;
+        width: 300px;
+        margin-right: -100px;
+    }
+    .gridpictures{
+        height: 200px;
+        width: 250px;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 991px){
+    .picturediv{
+        height: 280px;
+        width: 220px;
+
+    }
+    .title{
+        font-size: 300%;
+    }
+    .showmore{
+        font-size: 15px;
+        margin: 0 auto;
+        width: 80%;
+        padding: 7px 14px;
+
+        
+    }
+    .gridpictures{
+        height: 150px;
+        width: 200px;
+      
+    }
+
+}
+
+@media screen and (max-width: 769px){
+    .firstdiv{
+        height: 500px;
+    }
+    .homeslideshow{
+        height: 500px;
+    }
+    .firstheader{
+        margin-top: -70px;
+        
+    }
+    .firstheader{
+        font-size: 40px;
+    }
+    .firstpar{
+        
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 768px){
+
+    .firstdiv{
+        height: 500px;
+    }
+    .firstheader{
+
+        font-size: 40px;
+
+      }
+      .picturesectiontext{
+        height: 350px;
+      }
+      .title{
+        font-size: 25px;
+    }
+      .firstpar{
+        
+          font-size: 35px;
+      }
+      .firstdivcontent{
+        padding-top: 200px;
+    }
+    .homeslideshow{
+        height: 500px;
+    }
+    .picturesectionpicture{
+        height: 350px;
+    }
+    .thirddiv{
+        height: 1800px;
+    }
+
+    .picturediv{
+        height: 450px;
+        width: 450px;
+  
+    
+    }
+    .gridpictures{
+        height: 320px;
+        width: 400px;
+        
+    }
+    .showmore{
+        font-size: 16px;
+        margin: 0 auto;
+        width: 85%;
+        padding: 9px 18px;
+
+        
+    }
+    .col-md{
+        height: 300px;
+        margin-bottom: 200px;
+        margin-left: 5%;
+        text-align: center;
+    }
+    
+    }
+    
+    @media screen and (max-width: 450px){
+        .firstheader{
+            font-size: 32px;
+            margin-top: 10px;
+          }
+          .firstpar{
+            font-size: 32px;
+          }
+          .homeslideshow{
+            height: 400px;
+        }
+        .picturesectiontext {
+            height: 250px;
+              }
+              .picturesectionpicture{
+                  height: 250px;
+              }
+        .title{
+            font-size: 16px;
+        }
+        .firstdiv{
+            height: 400px;
+        }
+        .firstdivcontent{
+            margin-top: -30px;
+        }
+
+          .secondheader{
+            margin-top: -50px;
+            font-size: 28px;
+        }
+        .secondpar{
+            font-size: 20px;
+        }
+        .thirdheader{
+            font-size: 28px;
+        }
+          .thirddivcontent {
+            font-size: 220%;
+            height: 350px;
+        }
+          .firstpar{
+              font-size: 30px;
+          }
+          .firstdivcontent{
+            padding-top: 200px;
+    }
+    .thirddiv{
+        height: 1450px;
+    }
+    .gridpictures{
+        height: 220px;
+        width: 300px;
+        
+    }
+    .picturediv{
+        height: 350px;
+        width: 350px;
+  
+    
+    }
+    .showmore{
+        font-size: 16px;
+        margin: 0 auto;
+        width: 80%;
+        padding: 7px 14px;
+    }
+    .col-md{
+        height: 300px;
+        margin-bottom: 100px;
+        text-align: center;
+        margin-right: -50px;
+    }
+}
+
+@media screen and (max-width: 414px){
+    .seconddiv{
+        height: 550px;
+    }
+    .firstheader{
+        font-size: 30px;
+      }
+
+      .firstpar{
+        font-size: 30px;
+      }
+      .title{
+        font-size: 14px;
+    }
+
+    .homeslideshow{
+        height: 400px;
+    }
+    .firstdiv{
+        height: 400px;
+    }
+    .firstdivcontent{
+        font-size: 26px;
+
+      }
+    .thirddiv{
+        height: 1500px;
+    }
+    .thirddivcontent {
+        font-size: 200%;
+    }
+
+    .gridpictures{
+        height: 220px;
+        width: 300px;
+        
+    }
+    .picturediv{
+        height: 350px;
+        width: 350px;
+  
+    
+    }
+    .showmore{
+        font-size: 16px;
+        margin: 0 auto;
+        width: 80%;
+        padding: 7px 14px;
+
+        
+    }
+    .col-md{
+        height: 300px;
+        margin-bottom: 100px;
+        margin-left: 5%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .firstdiv{
+        height: 400px;
+    }
+    .firstheader{
+
+        font-size: 26px;
+
+      }
+      .firstheader{
+        font-size: 30px;
+      }
+      .firstpar{
+        font-size: 30px;
+      }
+      .title{
+          font-size: 11px;
+      }
+      .thirddivcontent {
+        font-size: 180%;
+        height: 250px;
+    }
+      .firstpar{
+        
+          font-size: 25px;
+      }
+    .firstdivcontent{
+        padding-top: 180px;
+    }
+    .thirdheader{
+        margin-top: -10px;
+    }
+    .thirddiv{
+        height: 1400px;
+        
+    }
+    .homeslideshow{
+        height: 400px;
+    }
+    .picturesectionpicture{
+        height: 250px;
+    }
+    .picturediv{
+        height: 350px;
+        width: 350px;
+  
+    
+    }
+    .gridpictures{
+        height: 220px;
+        width: 300px;
+        
+    }
+    .showmore{
+        font-size: 14px;
+        margin: 0 auto;
+        width: 80%;
+        padding: 8px 16px;
+
+        
+    }
+    .col-md{
+        height: 300px;
+        margin-bottom: 100px;
+        margin-left: -3px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .seconddiv{
+        height: 550px;
+    }
+    .secondheader{
+        margin-top: -50px;
+    }
+    .picturediv{
+        height: 320px;
+        width: 300px;
+
+    }
+    .gridpictures{
+        height: 190px;
+        width: 250px;
+        
+        
+    }
+    .showmore{
+        font-size: 14px;
+        margin: 0 auto;
+        width: 78%;
+        padding: 6px 12px;
+
+
+    }
+    .col-md{
+        height: 300px;
+        margin-bottom: 80px;
+        margin-left: 18px;
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width: 320px){
+    .col-md{
+        height: 300px;
+
+        margin-left: -5px;
+
+    }
+    .thirddivcontent {
+        font-size: 150%;
+       
+    }
+    .seconddiv{
+      
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 280px){
+    .secondheader{
+        font-style: 26px;
+    }
+    .homeslideshow{
+        height: 300px;
+    }
+    .picturesectiontext{
+        height: 250px;
+    }
+    .title{
+        font-size: 18px;
+    }
+    .firstdiv{
+        height: 300px;
+    }
+    .firstheader{
+        font-size: 22px;
+        margin-top:1px;
+      }
+      .firstpar{
+        font-size: 22px;
+      }
+
+
+    .picturediv{
+        height: 350px;
+        width: 250px;
+
+    }
+    .gridpictures{
+        height: 200px;
+        width: 240px;
+        
+        
+    }
+    .seconddiv{
+      
+        height: 650px;
+    }
+    .secondheader{
+        font-size: 22px;
+    }
+    .secondpar{
+        padding-bottom: 10px;
+        
+    }
+    .showmore{
+
+        width: 88%;
+
+
+    }
+    .thirdheader{
+        font-size: 22px;
+    }
+    .col-md{
+        margin-left: 2px;
+    }
+}
+
+/* MAY NEED THIS
+@media screen and (max-width: 1400px){
+    .firstdivimage{
+        background-image: url("../../assets/images/DSC_4243_small.png");
+    }
+} */
+
+.slick-slider {  
+    width: 100%;  
+    margin: auto; 
+}
+
+.slick-slide {
+    outline:none;
+}

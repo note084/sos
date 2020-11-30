@@ -1,0 +1,8 @@
+.acceptedFileStyle p {
+    font-style: italic;
+    padding-top: 5px;
+}
+
+textarea{
+    resize: none;
+}

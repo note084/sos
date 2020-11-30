@@ -1,0 +1,845 @@
+body {
+    overflow-x: hidden; 
+    overflow-y: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.firstdivimage {
+    background-image: url("../../assets/images/DSC_4368.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: auto;
+}
+
+.firstdiv{
+    height: 730px;
+    width: 100%;
+}
+
+.background-tint {
+    background-color: rgba(0, 0, 0, 0.68); 
+    background-blend-mode: multiply;
+}
+
+.seconddiv{
+    height: 915px;
+    width: 100%;
+    background-color: white;
+}
+
+.secondDivTitle{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 3em;
+    padding-bottom: 1em;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.secondHorizontal{
+    width: 25%;
+    border-bottom: solid lightgray 1px;
+    margin: auto;
+}
+
+.contentContainer{
+    width: 75%;
+    height: 900px;
+    margin: auto;
+
+}
+
+.col{
+    flex:1;
+    padding:6em;
+}
+
+.firstColumn{
+    width: 33.3%;
+    padding:1em;
+    margin-right: 40px;
+
+}
+
+.secondColumn{
+    width: 33.3%;
+    padding:1em;
+    margin-right: 40px;
+
+}
+
+.thirdColumn{
+    width: 33.3%;
+    padding:1em;
+
+}
+
+.equipmentTitle{
+    border-bottom: 1px dotted;
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 1em;
+    padding-top: 1em;
+
+}
+
+.equipmentName{
+    font-size: 25px;
+    padding-bottom: .5em;
+    color: red;
+}
+
+.equipmentContent{
+    border-bottom: 1px dotted;
+    font-size: 20px;
+    padding: .5em;
+}
+
+.no-bullets{
+    list-style-type: none;
+}
+
+.thirddiv{
+    height: 800px;
+    width: 100%;
+    background-image: url("../../assets/images/DSC_4473new.png");
+    background-position: center center;
+    background-size: cover;
+    background-color: rgba(199, 21, 21, 0.8); 
+    background-blend-mode: multiply;
+}
+
+.fourthDivLeft{
+    width: 50%;
+    height: 600px;
+}
+
+.fourthDivLeftContent{
+    padding-top: 7em;
+    color: red;
+    text-align: right;
+    font-size: 35px;
+    padding-right: 2em;
+
+}
+
+
+.fourthDivRight{
+    width: 50%;
+    height: 600px;
+}
+
+.fourthDivRightContent{
+    padding-top: 10.5em;
+    color: white;
+    padding-left: 2em;
+    padding-right: 14.5em;
+
+}
+
+.fourthdiv{
+    height: 600px;
+    width: 100%;
+    background-color: black;
+    font-size: 30px;
+}
+
+.fifthdiv{
+    height: 1000px;
+    width: 100%;
+}
+
+.fifthTitleContainer{
+   text-align: center;
+   letter-spacing: 5px;
+   font-size: 35px;
+   text-transform: uppercase;
+   font-weight: bold;
+   width: 30%;
+   margin: auto;
+   padding-top: 5em;
+   padding-bottom: 1em;
+   border-bottom: solid lightgray 1px;
+
+}
+
+.fifthContent{
+    width: 40%;
+    margin: auto;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 5em;
+    padding-bottom: 2em;
+}
+
+.fifthIconContainer{
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    padding-top: 5em;
+    padding-left: 30em;
+    padding-right: 30em;
+
+}
+
+.fourbytwo{
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    padding-top: 5em;
+    padding-left: 30em;
+    padding-right: 30em;
+    display: none;
+    visibility: hidden;
+}
+
+.iconContainer{
+    font-size: 40px;
+}
+
+.iconContent{
+    font-size: 18px;
+    padding-bottom: 2em;
+    padding-top: 1em;
+
+}
+
+.firstIconColumn{
+    width: 25%;
+    padding: 1em;
+
+}
+
+.secondIconColumn{
+    width: 25%;
+    padding:1em;
+
+}
+
+.thirdIconColumn{
+    width: 25%;
+    padding:1em;
+
+}
+
+.fourthIconColumn{
+    width: 25%;
+    padding:1em;
+
+}
+
+.firstdivcontent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    letter-spacing: 5px;
+}
+
+.title {
+    font-size:200%
+}
+
+.rel {
+    position: relative;
+}
+
+.seperator{
+    width: 100%;
+}
+
+.flexContainer{
+
+}
+
+.flexIconContainer{
+
+}
+
+@media only screen and (min-width: 1200px){
+    .firstColumn{
+        width: 100%;
+    }
+    .secondColumn{
+        width: 100%;
+    }
+    .thirdColumn{
+        width: 100%;
+    }
+    .flexContainer{
+        display: flex;
+    }
+}
+
+
+@media only screen and (min-width: 1024px){
+    .flexContainer{
+        display: flex;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .firstdiv{
+        height: 500px;
+    }
+    .firstColumn{
+        width: 100%;
+    }
+    .secondColumn{
+        width: 100%;
+    }
+    .thirdColumn{
+        width: 100%;
+    }
+    .fourthdiv{
+        display:flex;
+        font-size: 20px;
+    }
+
+    .fourthDivLeftContent{
+        font-size: 30px;
+        padding-right: 2em;
+    }
+
+    .fourthDivRightContent{
+        padding-right: 4em;
+        padding-left: 2em;
+    }
+
+    .seconddiv{
+        height: 1200px;
+    }
+
+    .col{
+        padding: 0em;
+    }
+
+    .firstColumn{
+        width: 100%;
+        padding: 0em;
+    }
+
+    .flexContainer{
+        display: flex;
+    }
+
+    .flexIconContainer{
+        display: flex;
+    }
+
+    .secondHorizontal{
+        width: 50%;
+    }
+
+    .fifthIconContainer{
+        padding: 1em;
+    }
+
+    .fifthdiv{
+        height: 1000px;
+    }
+
+    .fifthContent{
+        width: 80%;
+    }
+
+    .fifthTitleContainer{
+        width: 70%;
+        padding-top: 4em;
+    }
+}
+@media only screen and (max-width: 767px){
+
+    .firstdiv{
+        height: 600px;
+    }
+
+    .firstColumn{
+        width: 100%;
+    }
+    .secondColumn{
+        width: 100%;
+    }
+    .thirdColumn{
+        width: 100%;
+    }
+    .contentContainer{
+        display: content;
+    }
+
+    .seconddiv{
+        height: 1600px;
+    }
+
+    .secondHorizontal{
+        width: 50%;
+    }
+
+    .fourthdiv{
+        display:flex;
+        font-size: 16px;
+        height: 600px;
+    }
+
+    .fourthDivLeftContent{
+        font-size: 16px;
+        padding-right: 1em;
+        padding-top: 16em;
+    }
+
+    .fourthDivRightContent{
+        padding-right: 5em;
+        padding-left: 1em;
+        padding-top: 13em;
+    }
+
+    .flexIconContainer{
+        display: flex;
+    }
+
+    .fifthIconContainer{
+        padding: 2em;
+    }
+
+    .fifthdiv{
+        height: 700px;
+    }
+
+    .fifthContent{
+        width: 80%;
+        font-size: 14px;
+    }
+
+    
+    .flexIconContainer{
+        display: flex;
+    }
+
+    .fifthTitleContainer{
+        width: 70%;
+        padding-top: 2em;
+        font-size: 20;
+    }
+
+    .iconContainer{
+        font-size: 30px;
+    }
+
+    .iconContent{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 720px){
+
+    .seconddiv{
+        height: 1700px;
+    }
+
+    .fifthdiv{
+        height: 800px;
+    }
+
+}
+
+@media (max-width: 638px){
+    .seconddiv{
+        height: 1800px;
+    }
+}
+
+@media (max-width: 565px){
+
+    .seconddiv{
+        height: 1900px;
+    }
+}
+
+@media (max-width: 550px){
+
+    .seconddiv{
+        height: 2000px;
+    }
+
+    .fourthdiv{
+        height: 700px;
+    }
+
+    .fourthDivLeftContent{
+        font-size: 16px;
+        padding-right: 1em;
+        padding-top: 18em;
+    }
+
+    .fourthDivRightContent{
+        padding-right: 2em;
+        padding-left: 1em;
+        padding-top: 13em;
+    }
+}
+
+@media (max-width: 535px){
+
+    .seconddiv{
+        height: 2100px;
+    }
+}
+
+@media (max-width: 503px){
+
+    .seconddiv{
+        height: 2200px;
+    }
+}
+
+@media (max-width: 460px){
+
+    .seconddiv{
+        height: 2300px;
+    }
+}
+
+@media (max-width: 442px){
+
+    .seconddiv{
+        height: 2400px;
+    }
+}
+
+@media (max-width: 429px){
+
+    .seconddiv{
+        height: 2500px;
+    }
+}
+
+
+@media (max-width: 420px){
+    
+    .seconddiv{
+        height: 1800px;
+    }
+
+    .title{
+        font-size: 30px;
+    }
+    .firstdiv{
+        height: 350px;
+    }
+    .secondDivTitle{
+        font-size: 30px;
+    }
+    .col{
+        padding: 1em;
+    }
+
+    .thirddiv{
+        height:400px;
+    }
+
+    .firstColumn{
+        width: 100%;
+        padding: 0em;
+    }
+
+    .secondHorizontal{
+        width: 50%;
+    }
+
+    .fourthdiv{
+        font-size: 12px;
+        height: 400px;
+        flex-wrap: wrap;
+    }
+
+    .fourthDivLeft{
+        height: 200px;
+        width: 100%;
+        padding-top: 8em;
+
+    }
+
+    .fourthDivLeftContent{
+        font-size: 16px;
+        padding: 0em;
+        width: 100%;
+        text-align: center;
+    }
+
+    .fourthDivRight{
+        display: flex;
+        width: 100%;
+        height: 200px;
+        padding: 0em;
+    }
+
+    .fourthDivRightContent{
+        display: flex;
+        padding-top: 0em;
+        padding-right: 5em;
+        padding-left: 5em;
+        font-size: 14px;
+    }
+
+    .fifthIconContainer{
+        padding: 0em;
+        visibility: hidden;
+        width: 0px;
+        height: 0px;
+    }
+
+    .fourbytwo{
+        padding: 1em;
+        visibility: visible;
+    }
+
+    .fifthdiv{
+        height: 1200px;
+    }
+
+    .fifthContent{
+        width: 80%;
+        font-size: 14px;
+    }
+
+    
+    .flexIconContainer{
+        display: flex;
+    }
+
+    .fifthTitleContainer{
+        width: 70%;
+        padding-top: 2em;
+        font-size: 20;
+    }
+
+    .iconContainer{
+        font-size: 30px;
+    }
+
+    .iconContent{
+        font-size: 12px;
+    }
+
+    .firstIconColumn{
+        width: 50%;
+    }
+
+    .secondIconColumn{
+        width: 50%;
+    }
+
+    .thirdIconColumn{
+        width: 50%;
+    }
+
+    .fourthIconColumn{
+        width: 50%;
+    }
+}
+
+
+@media (max-width: 375px){
+    .title{
+        font-size: 30px;
+    }
+    .firstdiv{
+        height: 290px;
+    }
+    .secondDivTitle{
+        font-size: 30px;
+    }
+    .col{
+        padding: 1em;
+    }
+
+    .thirddiv{
+        height:400px;
+    }
+
+    .seconddiv{
+        height: 1950px;
+    }
+
+    .firstColumn{
+        width: 100%;
+        padding: 0em;
+    }
+
+    .secondHorizontal{
+        width: 50%;
+    }
+
+
+    .fifthIconContainer{
+        padding: 1em;
+    }
+
+    .fifthdiv{
+        height: 1300px;
+    }
+
+    .fifthContent{
+        width: 80%;
+    }
+
+    .fifthTitleContainer{
+        width: 70%;
+        padding-top: 4em;
+    }
+
+}
+
+@media (max-width: 360px){
+    .title{
+        font-size: 30px;
+    }
+    .firstdiv{
+        height: 400px;
+    }
+    .secondDivTitle{
+        font-size: 30px;
+    }
+    .col{
+        padding: 1em;
+    }
+
+
+    .seconddiv{
+        height: 1900px;
+    }
+
+    .firstColumn{
+        width: 100%;
+        padding: 0em;
+    }
+
+    .secondHorizontal{
+        width: 50%;
+    }
+
+    .fifthIconContainer{
+        padding: 1em;
+    }
+
+    .fifthdiv{
+        height: 1400px;
+    }
+
+    .fifthContent{
+        width: 80%;
+    }
+
+    .fifthTitleContainer{
+        width: 70%;
+        padding-top: 4em;
+    }
+
+    .fourthdiv{
+        height: 500px;
+    }
+
+}
+
+@media (max-width: 350px){
+
+    .seconddiv{
+        height: 2100px;
+    }
+
+}
+
+@media (max-width: 320px){
+    .title{
+        font-size: 30px;
+    }
+    .firstdiv{
+        height: 400px;
+    }
+    .secondDivTitle{
+        font-size: 30px;
+    }
+    .col{
+        padding: 1em;
+    }
+
+    .thirddiv{
+        height:400px;
+    }
+
+    .seconddiv{
+        height: 2100px;
+    }
+
+    .fourthdiv{
+        display:flex;
+        font-size: 12px;
+        height: 500px;
+    }
+
+    .fourthDivLeft{
+        height: 100px;
+    }
+
+    .fourthDivRightContent{
+        height: 100px;
+    }
+
+    .fifthIconContainer{
+        padding: 0.5em;
+    }
+
+    .fifthdiv{
+        height: 950px;
+    }
+
+    .fifthContent{
+        width: 80%;
+        font-size: 12px;
+    }
+    
+    .flexIconContainer{
+        display: flex;
+    }
+
+    .fifthTitleContainer{
+        width: 70%;
+        padding-top: 2em;
+        font-size: 18px;
+        padding-bottom: 1em;
+    }
+
+
+    .iconContainer{
+        font-size: 25px;
+        padding: 0em;
+    }
+
+    .iconContent{
+        font-size: 10px;
+        padding-bottom: 0em;
+    }
+
+    .fourbytwo{
+        padding-top: 1em;
+        height: 150px;
+    }
+
+}
+
+@media (max-width: 320px){
+    .seconddiv{
+        height: 2300px;
+    }
+}
+
+@media (max-width: 285px)
+{
+    .seconddiv{
+        height: 2450px;
+    }
+}

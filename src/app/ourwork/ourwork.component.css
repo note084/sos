@@ -1,0 +1,163 @@
+body {
+
+  overflow-x: hidden; 
+  overflow-y: hidden;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.firstdivimage {
+  background-image: url("../../assets/images/DSC_4591.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: auto;
+}
+
+.firstdiv{
+  height: 730px;
+  width: 100%;
+}
+
+.firstdivcontent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:white;
+  text-shadow: 2px 2x 8px rgba(0, 0, 0, 0.75);
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 5px;
+}
+
+.title {
+  font-size:220%
+}
+
+.rel {
+  position: relative;
+}
+
+.seconddiv{
+    height: 1400px;
+    
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow: hidden
+}
+
+.grid { 
+    width: 70%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(325px, 1fr));
+    grid-gap: 20px;
+    align-items: stretch;
+    padding-top: 150px;
+}
+
+.grid img {
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+  max-width: 100%;
+  height: 325px;
+}
+
+.background-tint {
+  background-color: rgba(0, 0, 0, 0.5); 
+  background-blend-mode: multiply;
+}
+@media (max-width: 1025PX) {
+
+  .grid{
+    padding-left: 30px;
+  }
+  .seconddiv{
+    height: 1600px;
+  }
+  .grid{
+    grid-template-columns: repeat(auto-fill, minmax(325px, 1fr));
+
+  }
+  .grid img{
+    height: 250px;
+  }
+}
+
+@media (max-width: 786PX) {
+
+  .grid{
+    padding-left: 30px;
+  }
+  .seconddiv{
+    height: 3500px;
+  }
+
+}
+@media (max-width: 450px) {
+  .title {
+    font-size:150%
+  }
+  .grid{
+    grid-template-columns: repeat(auto-fill, minmax(375px, 1fr));
+    margin-right: 125px;
+  }
+  .seconddiv{
+    height: 2700px;
+  }
+}
+@media (max-width: 414px) {
+  .title {
+    font-size:140%
+  }
+  .grid{
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    margin-right: 125px;
+  }
+   .seconddiv{
+    height: 2700px;
+  }
+  .grid img{
+    height: 250px;
+  }
+}
+@media (max-width: 411px) {
+  .firstdiv{
+    height: 500px;
+  }
+
+  .grid{
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    margin-right: 100px;
+  }
+  .grid img {
+    height: 250px;
+  }
+}
+
+@media (max-width: 320px) {
+  .title {
+    font-size:99%
+  }
+  .grid{
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+    margin-right: 100px;
+  }
+  .grid img {
+    height: 225px;
+  }
+}
+
+@media (max-width: 280px) {
+  .title {
+    font-size:100%
+  }
+  .seconddiv{
+    height: 2500px;
+  }
+  .grid{
+    grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+    margin-right: 100px;
+  }
+  .grid img {
+    height: 200px;
+  }
+}

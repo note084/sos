@@ -1,0 +1,236 @@
+body {
+    overflow-x: hidden; 
+    overflow-y: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.firstdivimage {
+    background-image: url("../../assets/images/DSC_4502.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: auto;
+}
+
+.firstdiv{
+    height: 634px;
+    width: 100%;
+}
+.firstdivcontent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    text-shadow: 2px 2x 8px rgba(0, 0, 0, 0.75);
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 5px;
+
+  }
+  
+  .title {
+    font-size:220%
+  }
+  
+  .rel {
+    position: relative;
+  }
+
+.seconddiv{
+    height: 520px;
+    width: 100%;
+ 
+}
+
+.thirddiv{
+    height: 520px;
+    width: 100%;
+}
+
+.thirdtext{
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 1.5em;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 22%;
+}
+.backgroundcol{
+    background-image: url("../../assets/images/DSC_4473new.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 520px;
+}
+.fourthdiv{
+    height: 1380px;
+    width: 100%;
+    background-color: purple;
+}
+
+.background-tint {
+    background-color: rgba(0, 0, 0, 0.50); 
+    background-blend-mode: multiply;
+}
+.background-tintthird {
+    background-color: rgba(0, 0, 0, 0.85); 
+    background-blend-mode: multiply;
+}
+.container {
+    padding: 140px;
+}
+
+.flex-container {
+    
+    height: 200px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 32px;
+    float: right;
+}
+.left {
+    flex: 3;
+    line-height: 1.1em;
+    margin-bottom: 14px;
+    font-weight: 1000;
+    text-align: left;
+    
+}
+.mid {
+    flex: 1;
+}
+.right {
+    flex: 5;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 1.5em;
+}
+@media (max-width: 1025px) {
+    .thirddiv{
+        height: 450px;
+       
+    }
+    .thirdtext{
+        margin-top: 25%;
+    }
+}
+@media (min-width: 768px) {
+    .flex-container {
+        display: flex;
+        width: 65%;
+        margin: 0 auto;
+        padding-top: 220px;
+    }
+
+
+}
+@media (max-width: 768px) {
+    .firstdiv{
+        height: 450px;
+    }
+    .thirddiv{
+        height: 420px;
+       
+    }
+    h1{
+        float: left;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+
+    .flex-container {
+      
+        display: inline-block;
+        padding-top: 50px;
+    }
+    .mid{
+        height: 5px;
+    }
+    .backgroundcol{
+        height: 310px;
+    }
+    .thirdtext{
+        margin-top: -1px;
+        padding-top: 30px;
+    }
+    .title {
+        font-size:120%
+      }
+      .right{
+           float: left;
+       
+      }
+
+}
+@media (max-width: 767px) {
+    .thirddiv{
+        height: 500px;
+       
+    }
+    .seconddiv{
+        margin: 0 auto;
+        width: 80%;
+    
+    }
+}
+@media (max-width: 550px) {
+    .seconddiv{
+        height: 550px;
+    }
+}
+@media (max-width: 476px) {
+    .seconddiv{
+        height: 580px;
+    }
+}
+@media (max-width: 450px) {
+    .firstdiv{
+        height: 420px;
+    }
+    .thirddiv{
+        height: 520px;
+    }
+}
+@media (max-width: 414px) {
+    h1{
+        font-size: 26px;
+    }
+    .right{
+        font-size: 18px;
+    
+   }
+   .thirdtext{
+    font-size: 18px;
+
+}
+}
+@media (max-width: 375px) {
+    .thirddiv{
+        height: 600px;
+    }
+    .seconddiv{
+        height: 580px;
+    }
+    .thirddiv{
+        height: 600px;
+    }
+}
+@media (max-width: 320px) {
+    .firstdiv{
+        height: 400px;
+    }
+    .seconddiv{
+        height: 650px;
+    }
+}
+@media (max-width: 280px) {
+    .firstdiv{
+        height: 400px;
+    }
+    .seconddiv{
+        height: 670px;
+    }
+}

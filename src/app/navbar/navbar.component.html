@@ -1,0 +1,19 @@
+
+  <body>
+    <nav>
+      <div class="logo-section">
+          <a routerLink="/" class="logo">SOS PRECISION CNC</a>
+          <button class="hb-button"><i class="fa fa-bars"></i></button>
+      </div>
+      
+      <div class="rightside">
+        <ul>
+          <li routerLinkActive = "active" ><a routerLink="/contactus">CONTACT US</a></li>
+          <li routerLinkActive = "active" ><a routerLink="/ourwork">OUR WORK</a></li>
+          <li routerLinkActive = "active" ><a routerLink="/capabilites">CAPABILITIES</a></li>
+          <li routerLinkActive = "active" ><a routerLink="/aboutus">ABOUT US</a></li>
+          <li routerLinkActive = "active" [routerLinkActiveOptions] = "{exact: true}"><a routerLink="/">HOME</a></li>
+      </ul>
+      </div>
+  </nav>
+</body>
